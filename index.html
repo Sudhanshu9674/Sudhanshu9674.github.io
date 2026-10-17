@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SwapWright — newsletter swaps, handled</title>
+<meta name="description" content="Automates newsletter swaps on BookClicker and MailerLite. Finds partners, answers offers, builds your draft.">
+<link rel="icon" href="icon.png">
+<style>
+:root{
+  --navy:#0B3E7A; --blue:#1565C0; --green:#047857;
+  --field:#0A2342; --ink:#17212f; --muted:#5b6880; --line:#dfe6ef;
+  --bg:#ffffff; --panel:#f5f8fc;
+}
+:root:not([data-theme="light"]){}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --ink:#e8eefb; --muted:#9fb0c9; --line:#26334a; --bg:#101a2c; --panel:#16223a;
+    --blue:#60B8FF; --green:#34D399;
+  }
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);
+  font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Roboto,Helvetica,Arial,sans-serif;
+  -webkit-font-smoothing:antialiased}
+.wrap{max-width:840px;margin:0 auto;padding:0 16px}
+header.top{border-bottom:1px solid var(--line);background:var(--bg);position:sticky;top:0;z-index:5}
+header.top .wrap{display:flex;align-items:center;gap:12px;height:62px}
+.brand{display:flex;align-items:center;gap:9px;font-weight:700;font-size:18px;text-decoration:none;color:var(--ink)}
+.brand .g{color:var(--green)}
+header.top nav{margin-left:auto;display:flex;gap:18px;font-size:14.5px}
+header.top nav a{color:var(--muted);text-decoration:none}
+header.top nav a:hover{color:var(--ink)}
+.hero{padding:62px 0 34px;text-align:center}
+.hero h1{font-size:40px;line-height:1.15;margin:0 0 14px;letter-spacing:-.02em}
+.hero p.lede{font-size:19px;color:var(--muted);margin:0 auto 26px;max-width:620px}
+.btn{display:inline-block;background:var(--blue);color:#fff;text-decoration:none;font-weight:600;
+  padding:13px 26px;border-radius:9px;font-size:16px}
+.btn:hover{filter:brightness(1.07)}
+.req{display:block;margin-top:12px;font-size:13.5px;color:var(--muted)}
+section{padding:30px 0;border-top:1px solid var(--line)}
+h2{font-size:22px;margin:0 0 14px;letter-spacing:-.01em}
+h3{font-size:16.5px;margin:0 0 5px}
+/* Two by two. auto-fit put three across and left Follow-ups alone on a
+   second row, which read as though it mattered less than the others. */
+.jobs{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+@media (max-width:620px){.jobs{grid-template-columns:1fr}}
+.job{background:var(--panel);border:1px solid var(--line);border-radius:11px;padding:16px 17px}
+.job p{margin:0;color:var(--muted);font-size:15px}
+.shots{display:grid;gap:16px}
+.shots figure{margin:0}
+.shots img{width:100%;border:1px solid var(--line);border-radius:11px;display:block}
+.shots figcaption{font-size:13.5px;color:var(--muted);margin-top:7px}
+ul.plain{margin:0;padding-left:20px}
+ul.plain li{margin:6px 0}
+.note{background:var(--panel);border-left:3px solid var(--blue);border-radius:0 8px 8px 0;
+  padding:12px 15px;margin:16px 0}
+footer{border-top:1px solid var(--line);margin-top:34px;padding:24px 0 44px;color:var(--muted);font-size:14px}
+footer a{color:var(--blue)}
+.doc h2{margin-top:26px}
+.doc p{margin:0 0 11px}
+.updated{color:var(--muted);font-size:14px;margin:0 0 20px}
+a{color:var(--blue)}
+@media (max-width:620px){ .hero h1{font-size:31px} .hero{padding:40px 0 26px} }
+</style></head><body>
+<header class="top"><div class="wrap">
+  <a class="brand" href="./"><img src="icon.png" alt="" width="26" height="26" style="border-radius:6px">Swap<span class="g">Wright</span></a>
+  <nav><a href="./">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+</div></header>
+<main>
+<div class="wrap hero">
+  <h1>Newsletter swaps, handled.</h1>
+  <p class="lede">SwapWright finds partners, answers their offers, builds your newsletter draft and
+  tells every author their book went out — on your own BookClicker and MailerLite accounts.</p>
+  <a class="btn" href="#">Start free for 30 days</a>
+  <span class="req">Then monthly. Cancel any time. Requires a Mac with Apple Silicon (M1 or later).</span>
+</div>
+
+<div class="wrap"><section>
+  <h2>The four jobs it does</h2>
+  <div class="jobs">
+    <div class="job"><h3>Outreach</h3><p>Works through the lists you have liked on BookClicker, judges which are worth a feature and which a mention, and sends each one an offer — rotating through your books so no title is pushed at every partner.</p></div><div class="job"><h3>Replies</h3><p>Answers the offers that come back, accepting the strongest and declining the ones that would waste your best slot, with the numbers behind every decision.</p></div><div class="job"><h3>Newsletter</h3><p>Builds the draft for a fully booked date — every cover, link, title and blurb, placed in your own template. Then it reopens the saved draft and checks it against what is booked.</p></div><div class="job"><h3>Follow-ups</h3><p>Emails every author you promoted with a link to the newsletter their book appeared in.</p></div>
+  </div>
+  <div class="note"><strong>It never sends your newsletter.</strong> It writes the draft, unscheduled,
+  into your MailerLite drafts. Reading it and pressing send stays yours.</div>
+</section>
+
+<section>
+  <h2>What it looks like</h2>
+  <div class="shots">
+    <figure><img src="dashboard.png" alt="The dashboard: what each automation did, and anything still needing you." loading="lazy"><figcaption>The dashboard: what each automation did, and anything still needing you.</figcaption></figure><figure><img src="setup.png" alt="Setup is four steps. It reads your own newsletter rather than asking you to describe it." loading="lazy"><figcaption>Setup is four steps. It reads your own newsletter rather than asking you to describe it.</figcaption></figure>
+  </div>
+</section>
+
+<section>
+  <h2>What it does not do</h2>
+  <ul class="plain">
+    <li>It does not send newsletters. Only you do that.</li>
+    <li>It does not touch a newsletter already scheduled in your outbox.</li>
+    <li>It does not buy paid placements. Free swaps only.</li>
+    <li>It does not send anything to us. Your settings, sign-ins and history stay on your
+        computer — there is no SwapWright server and no tracking.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>What you need</h2>
+  <ul class="plain">
+    <li>A Mac with <strong>Apple Silicon</strong> (M1 or later). It does not run on Intel Macs.</li>
+    <li>Your own BookClicker and MailerLite accounts.</li>
+    <li>About ten minutes to set up: sign in to both, like the lists you want to swap with on
+        BookClicker, add your book titles, and let it read your newsletter.</li>
+  </ul>
+</section>
+
+<section>
+  <h2>Honest about the state of it</h2>
+  <p>This is version 1.0. It has run for months against one author's accounts and thousands of
+  offers, and it is being sold now so it can meet more than one newsletter template. If something
+  does not fit yours, write to <a href="mailto:supportswapwright@gmail.com">support</a> — that is the point of
+  this stage, and your first month is free.</p>
+</section></div>
+</main>
+<footer><div class="wrap">
+  <p>SwapWright — Automate · Update · Keep It Moving<br>
+  Questions: <a href="mailto:supportswapwright@gmail.com">supportswapwright@gmail.com</a> ·
+  <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+</div></footer>
+</body></html>
