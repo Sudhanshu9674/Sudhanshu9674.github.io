@@ -65,7 +65,7 @@ a{color:var(--blue)}
 </style></head><body>
 <header class="top"><div class="wrap">
   <a class="brand" href="./"><img src="icon.png" alt="" width="26" height="26" style="border-radius:6px">Swap<span class="g">Wright</span></a>
-  <nav><a href="./">Home</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
+  <nav><a href="./">Home</a><a href="./#trouble">Help</a><a href="privacy.html">Privacy</a><a href="terms.html">Terms</a></nav>
 </div></header>
 <main>
 <div class="wrap hero">
@@ -110,26 +110,102 @@ a{color:var(--blue)}
   <ol class="plain">
     <li><strong>Start the trial.</strong> You give card details but are not charged.
         Polar handles the payment and emails your receipt.</li>
-    <li><strong>The receipt carries a download link and your licence key.</strong>
-        There is nothing to collect from anywhere else.</li>
+    <li><strong>Open the <em>Access purchase</em> link in your receipt.</strong>
+        Your license key and the download are both on that page. The key is
+        <em>not</em> written in the email itself, so there is no point searching it.</li>
     <li><strong>Download the .dmg and drag SwapWright to Applications.</strong>
         It is about 400&nbsp;MB, because it brings its own browser engine rather than
         asking you to install one.</li>
     <li><strong>Open it.</strong> It just opens. SwapWright is signed with an Apple
         Developer ID and notarized by Apple, so macOS does not warn about it and there
         is nothing to approve.</li>
-    <li><strong>Paste your licence key into Setup</strong>, then work down the four steps:
-        sign in to BookClicker and MailerLite, like the lists you want to swap with,
-        add your book titles, and let it read your newsletter.</li>
+    <li><strong>Paste your license key into Setup.</strong> Right-click the field and
+        choose Paste, or use &#8984;V.</li>
+    <li><strong>Sign in to BookClicker and MailerLite.</strong> Two ways, and the second
+        needs no permissions at all:
+      <ul class="plain" style="margin:6px 0 0">
+        <li><strong>Use &ldquo;Sign in here&rdquo; in Setup</strong> &mdash; signs you in
+            inside the app. Nothing to allow, nothing to quit.</li>
+        <li><strong>Or borrow your Chrome sign-in</strong>, which needs
+            <strong>Full Disk Access</strong>: System&nbsp;Settings &rarr;
+            Privacy&nbsp;&amp;&nbsp;Security &rarr; Full&nbsp;Disk&nbsp;Access &rarr; switch
+            on SwapWright, then reopen the app. macOS ties this permission to each version
+            of an app, so it has to be granted again after an update. Quit Google Chrome
+            first if you are asked to &mdash; Chrome locks its own profile while it is open.</li>
+      </ul>
+    </li>
+    <li><strong>Finish Setup:</strong> like the lists you want to swap with, add your book
+        titles, and let it read your newsletter.</li>
   </ol>
-  <div class="note"><strong>One licence, one computer.</strong> Moving to a new Mac is done
-  in the app: press <em>Release this computer</em> in Setup, then activate on the new one.
-  The app checks the licence about twice a day; if it cannot reach the internet it keeps
+  <div class="note"><strong>One license, up to three computers.</strong> A laptop and a desktop
+  both count, and so does a Mac you replaced without releasing it first. To free a slot,
+  press <em>Release this computer</em> in Setup; if you no longer have that Mac, write to
+  support and we will release it for you.
+  The app checks the license about twice a day; if it cannot reach the internet it keeps
   working for seven days before asking again, so being offline never stops a run.</div>
   <p><strong>After the 14 days</strong> you are charged $10.99 a month until you cancel.
   Cancel any time from the link in your receipt — the app keeps working until the end of the
   period you have paid for, then the automations stop. Your settings, sign-ins and run history
   stay on your computer either way.</p>
+</section>
+
+<section id="trouble">
+  <h2>If something goes wrong</h2>
+  <p>Find the words you are seeing. If none of these match, write to
+  <a href="mailto:supportswapwright@gmail.com">supportswapwright@gmail.com</a> with the exact message or a
+  screenshot, and say which step you had reached &mdash; that is usually enough to answer
+  it in one reply.</p>
+
+  <h3>It will not install, or nothing happens when you open it</h3>
+  <ul class="plain">
+    <li><strong>&ldquo;SwapWright is damaged and can&rsquo;t be opened&rdquo;</strong> &mdash;
+        you have an old or partly downloaded file. Download it again from the
+        <em>Access purchase</em> link in your receipt. The current version opens with no
+        warning at all; if you get one, the file is wrong, not your Mac.</li>
+    <li><strong>It bounces in the Dock, or says the application cannot be opened</strong>
+        &mdash; check Apple menu &rarr; About This Mac. SwapWright needs
+        <strong>Apple Silicon</strong> (M1 or later) and cannot run on an Intel Mac at all.
+        If yours is Intel, write to us and we will refund you.</li>
+  </ul>
+
+  <h3>The license key</h3>
+  <ul class="plain">
+    <li><strong>You cannot find a key in your receipt</strong> &mdash; it is not in the
+        email. Open the <em>Access purchase</em> link; the key is on that page, with the
+        download.</li>
+    <li><strong>You cannot paste into the key field</strong> &mdash; right-click the field
+        and choose Paste, or use &#8984;V. On older versions right-click did nothing; the
+        menu bar&rsquo;s <em>Edit &rarr; Paste</em> works there.</li>
+    <li><strong>&ldquo;Activation limit reached&rdquo;</strong> &mdash; your license runs on
+        up to three computers. Press <em>Release this computer</em> in Setup on a Mac you
+        still have, or write to us and we will free a slot.</li>
+  </ul>
+
+  <h3>Signing in to BookClicker or MailerLite</h3>
+  <ul class="plain">
+    <li><strong>It says you are not signed in, or sends you back to a login page</strong>
+        &mdash; use <strong>&ldquo;Sign in here&rdquo;</strong> in Setup. It signs you in
+        inside the app and needs no permission from macOS.</li>
+    <li><strong>&ldquo;Chrome profile data not found&rdquo;</strong> &mdash; despite the
+        wording, this usually means macOS is <em>blocking</em> the app rather than that
+        anything is missing. Grant <strong>Full Disk Access</strong>
+        (System&nbsp;Settings &rarr; Privacy&nbsp;&amp;&nbsp;Security &rarr;
+        Full&nbsp;Disk&nbsp;Access &rarr; switch on SwapWright, then reopen it), or use
+        &ldquo;Sign in here&rdquo; instead and skip the permission entirely.</li>
+    <li><strong>It signs in as somebody else, or a name you do not recognize</strong>
+        &mdash; it is using the wrong Chrome profile. Choose the right one in Setup, or use
+        &ldquo;Sign in here&rdquo; to sign in directly and leave Chrome out of it.</li>
+    <li><strong>&ldquo;Quit Google Chrome first&rdquo;</strong> &mdash; Chrome keeps an
+        exclusive lock on its own profile. Quit it completely with &#8984;Q and try again.</li>
+    <li><strong>It worked before and stopped after an update</strong> &mdash; macOS ties
+        Full Disk Access to each version of an app, so a new version arrives without the
+        permission the last one had. Grant it again, or use &ldquo;Sign in here&rdquo;.</li>
+  </ul>
+
+  <h3>Still stuck</h3>
+  <p>Nothing here needs you to reinstall, and nothing you do in Setup can lose your work:
+  your settings, sign-ins and run history stay on your computer. If you would rather not
+  troubleshoot at all, cancel inside the trial and you are charged nothing.</p>
 </section>
 
 <section>

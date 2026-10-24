@@ -1,8 +1,8 @@
 {
-  "version": "1.0.0",
-  "date": "2026-10-16",
-  "url": "https://sudhanshu9674.github.io/",
+  "version": "1.0.1",
+  "date": "2026-10-23",
   "notes": [
-    "First release."
+    "The Chrome profile you picked in Setup is now the one that gets used.",
+    "Right-click now offers Cut, Copy and Paste in text fields, so a license key can be pasted."
   ]
 }
