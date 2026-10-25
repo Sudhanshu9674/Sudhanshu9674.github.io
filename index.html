@@ -121,19 +121,10 @@ a{color:var(--blue)}
         is nothing to approve.</li>
     <li><strong>Paste your license key into Setup.</strong> Right-click the field and
         choose Paste, or use &#8984;V.</li>
-    <li><strong>Sign in to BookClicker and MailerLite.</strong> Two ways, and the second
-        needs no permissions at all:
-      <ul class="plain" style="margin:6px 0 0">
-        <li><strong>Use &ldquo;Sign in here&rdquo; in Setup</strong> &mdash; signs you in
-            inside the app. Nothing to allow, nothing to quit.</li>
-        <li><strong>Or borrow your Chrome sign-in</strong>, which needs
-            <strong>Full Disk Access</strong>: System&nbsp;Settings &rarr;
-            Privacy&nbsp;&amp;&nbsp;Security &rarr; Full&nbsp;Disk&nbsp;Access &rarr; switch
-            on SwapWright, then reopen the app. macOS ties this permission to each version
-            of an app, so it has to be granted again after an update. Quit Google Chrome
-            first if you are asked to &mdash; Chrome locks its own profile while it is open.</li>
-      </ul>
-    </li>
+    <li><strong>Sign in to BookClicker and MailerLite</strong> with the
+        <strong>&ldquo;Sign in here&rdquo;</strong> buttons in Setup. Each opens a window
+        where you sign in yourself, on the real site. There is no macOS permission to
+        grant and nothing to quit, and your password is never seen by the app.</li>
     <li><strong>Finish Setup:</strong> like the lists you want to swap with, add your book
         titles, and let it read your newsletter.</li>
   </ol>
@@ -186,15 +177,23 @@ a{color:var(--blue)}
     <li><strong>It says you are not signed in, or sends you back to a login page</strong>
         &mdash; use <strong>&ldquo;Sign in here&rdquo;</strong> in Setup. It signs you in
         inside the app and needs no permission from macOS.</li>
+    <li><strong>It signs in as somebody you do not recognize, or the window closes by
+        itself</strong> &mdash; tell us what the name was and send a screenshot if you can.
+        Meanwhile, &ldquo;Sign in here&rdquo; opens a clean window of its own, so trying it
+        again from there usually gets you through.</li>
+  </ul>
+
+  <h4 style="margin:14px 0 4px">Only if you used an earlier version</h4>
+  <p class="hint" style="margin:0 0 6px">Older versions could borrow a sign-in from Google
+  Chrome. New installs never do, so skip this unless your settings still name a Chrome
+  profile.</p>
+  <ul class="plain">
     <li><strong>&ldquo;Chrome profile data not found&rdquo;</strong> &mdash; despite the
-        wording, this usually means macOS is <em>blocking</em> the app rather than that
-        anything is missing. Grant <strong>Full Disk Access</strong>
-        (System&nbsp;Settings &rarr; Privacy&nbsp;&amp;&nbsp;Security &rarr;
-        Full&nbsp;Disk&nbsp;Access &rarr; switch on SwapWright, then reopen it), or use
-        &ldquo;Sign in here&rdquo; instead and skip the permission entirely.</li>
-    <li><strong>It signs in as somebody else, or a name you do not recognize</strong>
-        &mdash; it is using the wrong Chrome profile. Choose the right one in Setup, or use
-        &ldquo;Sign in here&rdquo; to sign in directly and leave Chrome out of it.</li>
+        wording, macOS is usually <em>blocking</em> the app rather than anything being
+        missing. Grant <strong>Full Disk Access</strong> (System&nbsp;Settings &rarr;
+        Privacy&nbsp;&amp;&nbsp;Security &rarr; Full&nbsp;Disk&nbsp;Access &rarr; switch on
+        SwapWright, then reopen it) &mdash; or use &ldquo;Sign in here&rdquo; and skip the
+        permission entirely.</li>
     <li><strong>&ldquo;Quit Google Chrome first&rdquo;</strong> &mdash; Chrome keeps an
         exclusive lock on its own profile. Quit it completely with &#8984;Q and try again.</li>
     <li><strong>It worked before and stopped after an update</strong> &mdash; macOS ties
@@ -240,6 +239,8 @@ a{color:var(--blue)}
 <footer><div class="wrap">
   <p>SwapWright — Automate · Update · Keep It Moving<br>
   Questions: <a href="mailto:supportswapwright@gmail.com">supportswapwright@gmail.com</a> ·
-  <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a></p>
+  <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a><br>
+  <span style="color:var(--text-muted)">&copy; 2026 SwapWright.
+  All rights reserved.</span></p>
 </div></footer>
 </body></html>

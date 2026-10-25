@@ -1,8 +1,10 @@
 {
-  "version": "1.0.1",
-  "date": "2026-10-23",
+  "version": "1.0.2",
+  "date": "2026-10-24",
   "notes": [
-    "The Chrome profile you picked in Setup is now the one that gets used.",
-    "Right-click now offers Cut, Copy and Paste in text fields, so a license key can be pasted."
-  ]
+    "Entering your license key is now a step on the Getting set up checklist.",
+    "A Copy details for support button gathers what we would otherwise have to ask you for.",
+    "Clearer wording when macOS blocks access to Chrome."
+  ],
+  "url": "https://polar.sh/beena-katekar/portal"
 }
