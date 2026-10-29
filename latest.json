@@ -2,7 +2,8 @@
   "version": "1.0.4",
   "date": "2026-10-28",
   "notes": [
-    "MailerLite now connects with a token you create yourself in Integrations \u2192 MailerLite API. It does not expire, so there is nothing to reconnect.",
+    "Sending confirmations now uses a MailerLite API token you create yourself in Integrations \u2192 MailerLite API. It does not expire, so there is nothing to reconnect.",
+    "Building newsletters still needs a MailerLite sign-in as well \u2014 press Sign in with Chrome in Setup. The token alone is not enough for that.",
     "Book covers land on the right books, including BookFunnel covers that all share the same file name.",
     "A booked mention could be left out of a newsletter when your template had slightly more slots than bookings. There are now always at least as many slots as books.",
     "A day read from your calendar could list one author twice and miss another. SwapWright waits for the day to load fully, and stops rather than guessing.",
