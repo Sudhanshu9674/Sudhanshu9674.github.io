@@ -1,10 +1,10 @@
 {
-  "version": "1.0.2",
-  "date": "2026-10-24",
+  "version": "1.0.8",
+  "date": "2026-10-28",
   "notes": [
-    "Entering your license key is now a step on the Getting set up checklist.",
-    "A Copy details for support button gathers what we would otherwise have to ask you for.",
-    "Clearer wording when macOS blocks access to Chrome."
+    "A booked mention could be left out of a newsletter when your template had slightly more slots than bookings. There are now always at least as many slots as books.",
+    "A day read from your calendar could list one author twice and miss another. SwapWright waits for the day to load fully, and stops rather than guessing.",
+    "Swap runs no longer report a Solo you cannot offer back as an error, and say which setting is limiting the run."
   ],
   "url": "https://polar.sh/beena-katekar/portal"
 }
